@@ -1,0 +1,10 @@
+[package]
+name = "screen_shooter_4"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rfd = "0.15.4"
+rdev = { version = "0.5.3", features = ["unstable_grab"]}
+screenshots = "0.8.10"
+chrono = "0.4.42"
